@@ -5,7 +5,7 @@ body {
 }
 
 .container {
-    max-width: 95%;
+    max-width: 940px;
     margin: auto;
     /* display: flex; */
     /* flex-direction: row; */
@@ -15,36 +15,40 @@ body {
 .sidebyside {
     display: flex;
     flex-direction: row;
-    border: 3px dashed purple;
+    /* border: 3px dashed purple; */
 }
 
-h1, header, nav, aside, footer, p {
+header, h1, nav, .sidebyside, section, p, .article, #articleheader, aside, footer {
+
+    /* border: 3px solid black; */
+    margin: 10px;
+
+
+}
+header, nav, section, aside, footer, .insidebox {
     background-color: lightgray;
-    color: #111;
-    border: 3px solid black;
     text-align: center;
-    width: 90%;
-    margin: 1em;
+        margin: 10px;
+
 }
 
-.article {
-    background-color: gray;
-    margin: 1em;
+header, hav, footer {
+    height: 95px;
+    /* text-align: center; */
 }
 
-section, aside {
-    height: 500px;
-    border: 3px dashed orange;
-    background-color: lightgray;
-}
-
-section {
-    /* position: relative; */
-    width: 55%;
+#articlecontainer {
+    width: 515px;
 }
 
 aside {
-    /* position: relative; */
-    right: 0px;
-    width: 30%;
+    width: 405px;
+    /* margin: 10px; */
 }
+.article {
+    background-color: gray;
+}
+
+/* #articleheader {
+
+} */
