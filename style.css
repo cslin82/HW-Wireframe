@@ -2,6 +2,8 @@
 body {
     background-color: gray;
     font-family: Arial, Helvetica, sans-serif;
+    color: black;
+
 }
 
 .container {
@@ -18,22 +20,28 @@ body {
     /* border: 3px dashed purple; */
 }
 
-header, h1, nav, .sidebyside, section, p, .article, #articleheader, aside, footer {
+header, h1, nav, section, p, .article, #articleheader, aside, footer {
 
     /* border: 3px solid black; */
     margin: 10px;
-
-
 }
+
+h1 {
+    font-size: 100%;
+    font: inherit;
+}
+
 header, nav, section, aside, footer, .insidebox {
     background-color: lightgray;
     text-align: center;
         margin: 10px;
+        padding: 5px;
 
 }
 
 header, hav, footer {
     height: 95px;
+    line-height: 95px;
     /* text-align: center; */
 }
 
@@ -47,7 +55,14 @@ aside {
 }
 .article {
     background-color: gray;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
+
+/* .insidebox {
+    color: dimgray;
+} */
 
 /* #articleheader {
 
