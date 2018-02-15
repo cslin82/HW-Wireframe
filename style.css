@@ -1,0 +1,50 @@
+
+body {
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 95%;
+    margin: auto;
+    /* display: flex; */
+    /* flex-direction: row; */
+    align-items: center;
+}    
+
+.sidebyside {
+    display: flex;
+    flex-direction: row;
+    border: 3px dashed purple;
+}
+
+h1, header, nav, aside, footer, p {
+    background-color: lightgray;
+    color: #111;
+    border: 3px solid black;
+    text-align: center;
+    width: 90%;
+    margin: 1em;
+}
+
+.article {
+    background-color: gray;
+    margin: 1em;
+}
+
+section, aside {
+    height: 500px;
+    border: 3px dashed orange;
+    background-color: lightgray;
+}
+
+section {
+    /* position: relative; */
+    width: 55%;
+}
+
+aside {
+    /* position: relative; */
+    right: 0px;
+    width: 30%;
+}
