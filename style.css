@@ -39,7 +39,7 @@ header, nav, section, aside, footer, .insidebox {
 
 }
 
-header, hav, footer {
+header, nav, footer {
     height: 95px;
     line-height: 95px;
     /* text-align: center; */
